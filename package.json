@@ -1,0 +1,47 @@
+{
+  "name": "leafletplugindemo",
+  "version": "1.0.0",
+  "description": "leaflet plugin demo test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "web": "webpack-dev-server",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEESH87/leafletPluginDemo.git"
+  },
+  "author": "LEESH87",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LEESH87/leafletPluginDemo/issues"
+  },
+  "homepage": "https://github.com/LEESH87/leafletPluginDemo#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.2",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-webpack": "^3.12.2",
+    "file-loader": "^6.2.0",
+    "fs-extra": "^9.1.0",
+    "html-webpack-plugin": "^5.2.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  }
+}
